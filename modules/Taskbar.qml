@@ -1,13 +1,12 @@
-import Quickshell
-import Quickshell.Wayland
-import Quickshell.Io
-import Quickshell.Hyprland
 import QtQuick
+import Quickshell
+import Quickshell.Io 
 import QtQuick.Layouts
+import "config/config.js" as Config
+import "config/colors.js" as Colors
 
 PanelWindow {
     id: root
-
     // Theme
     property color colBg: "#1a1b26"
     property color colFg: "#a9b1d6"
@@ -45,8 +44,6 @@ PanelWindow {
                 onClicked: Hyprland.dispatch("exec rofi -show drun")
         	}
 		}
-
-		
 
         // Workspaces
         Repeater {
