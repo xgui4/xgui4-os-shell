@@ -30,7 +30,7 @@ const fontFamily = "JetBrainsMono Nerd Font"
 // SYSTEM TRAY
 
 const WORKSPACE_INACTIVE = "#45475a"
-const WORKSPACE_CURRENT = "#89dceb"
+const WORKSPACE_CURRENT = "#fab387"
 const WORKSPACE_ACTIVE = "#89b4fa"
 const CPU = "#f9e2af"
 const MEMORY = "#eba0ac"
