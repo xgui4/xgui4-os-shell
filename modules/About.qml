@@ -2,8 +2,8 @@ import QtQuick
 import Quickshell
 import Quickshell.Io 
 import QtQuick.Layouts
-import "config/config.js" as Config
-import "config/colors.js" as Colors
+import "../config/config.js" as Config
+import "../config/colors.js" as Colors
 
 FloatingWindow {
 	visible : true
