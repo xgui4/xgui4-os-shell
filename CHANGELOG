@@ -1,5 +1,10 @@
 # Changelog
 
+29 January 2026 : 
+
+- make the code modular by making everything from the panel as a module 
+- minors other adjustement like for the ShellName modules
+
 28 January 2026 : 
 
 - follow the tutorial for a simple [mininal] functionnal Panel
