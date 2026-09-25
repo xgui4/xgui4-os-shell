@@ -15,16 +15,34 @@ FloatingWindow {
 	 ColumnLayout {
 		
 		Text {
-			text: "About Xgui4 OS Shell"
+			text: "About " + Config.NAME
 			font.weight : Font.Bold
 			color: Colors.TITLE
-			font.pixelSize: 18
+			font.pixelSize: 50
 		}
 
 		Text {
 			text: "Version: " + Config.VERSION 
 			color: Colors.LABEL
-			font.pixelSize: 18
+			font.pixelSize: 50
 	    }
+
+		Text {
+			text : "Developer: " + Config.DEVELOPER
+			color: Colors.LABEL
+			font.pixelSize: 50
+		}
+
+		Text {
+			text : "License: " + Config.LICENSE
+			color: Colors.LABEL
+			font.pixelSize: 50
+		}
+
+		Text {
+			text : "OS: " + Quickshell.Io.getOSName()
+			color: Colors.LABEL
+			font.pixelSize: 50
+		}
 	}
 }

@@ -1,5 +1,16 @@
 # Changelog
 
+0.0.2~proto (24 september 2026)
+
+- update the panel for lua config of hyprland
+- update about window
+- remove seconds on time
+- changes license to gplv3
+- update code of conduct
+- update `config/config.js`
+- change font to hack nerd font
+- added more icons
+
 29 January 2026 : 
 
 - make the code modular by making everything from the panel as a module 

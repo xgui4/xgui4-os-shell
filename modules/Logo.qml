@@ -8,9 +8,9 @@ import "../config/colors.js" as Colors
 
 Text {
     color : Colors.FOREGROUND_COLOR
-    text : "󰣇"
+    text : ""
     MouseArea {
         anchors.fill: parent
-        onClicked: Hyprland.dispatch("exec rofi -show drun")
+        onClicked: Hyprland.dispatch("hl.dsp.exec_cmd(\"" + Config.Launcher + "\")")
     }
 }

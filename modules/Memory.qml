@@ -8,7 +8,7 @@ import "../config/colors.js" as Colors
 
 // Memory
 Text {
-    text: "Mem: " + memUsage + "%"
+    text: " Mem: " + memUsage + "%"
     color: Colors.MEMORY
     font { family: Colors.fontFamily; pixelSize: 18; bold: true }
 }

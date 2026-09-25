@@ -19,7 +19,7 @@ Scope {
             property var lastCpuIdle: 0
             property var lastCpuTotal: 0
 
-            property string fontFamily: "JetBrainsMono Nerd Font"
+            property string fontFamily: "Hack Nerd Font"
             property int fontSize: 14
 
             required property var modelData
@@ -47,9 +47,9 @@ Scope {
 
                 Item { Layout.fillWidth: true }
 
-                CPU {}
+                // CPU {}
 
-                Memory {}
+                // Memory {}
 
                 ClockWidget { color: Colors.FOREGROUND_COLOR }
 

@@ -25,7 +25,7 @@ const BACKGROUND_COLOR = BLACK
 
 const TITLE = GREEN
 
-const fontFamily = "JetBrainsMono Nerd Font"
+const fontFamily = "Hack Nerd Font"
 
 // SYSTEM TRAY
 
